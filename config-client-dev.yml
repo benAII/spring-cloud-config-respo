@@ -1,0 +1,8 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9091/eureka/
+server:
+  port: 8087
+
+foo: this is local config server dev!!!
